@@ -20,15 +20,8 @@
 
 /* Begin PBXFileReference section */
 		D7FAFCFF2DF039F10009E979 /* crossshell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = crossshell; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FAFD092DF03AEA0009E979 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D7FAFD012DF039F10009E979 /* crossshell */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = crossshell;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D7FAFCFC2DF039F10009E979 /* Frameworks */ = {
@@ -44,7 +37,7 @@
 		D7FAFCF62DF039F10009E979 = {
 			isa = PBXGroup;
 			children = (
-				D7FAFD012DF039F10009E979 /* crossshell */,
+				D7FAFD092DF03AEA0009E979 /* README.md */,
 				D7FAFD002DF039F10009E979 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,9 +64,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D7FAFD012DF039F10009E979 /* crossshell */,
 			);
 			name = crossshell;
 			packageProductDependencies = (
