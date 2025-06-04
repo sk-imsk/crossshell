@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D7FAFD0F2DF041140009E979 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D7FAFD0E2DF041140009E979 /* main.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D7FAFCFD2DF039F10009E979 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -21,6 +25,9 @@
 /* Begin PBXFileReference section */
 		D7FAFCFF2DF039F10009E979 /* crossshell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = crossshell; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FAFD092DF03AEA0009E979 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D7FAFD0C2DF040C50009E979 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D7FAFD0D2DF041140009E979 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		D7FAFD0E2DF041140009E979 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +45,9 @@
 			isa = PBXGroup;
 			children = (
 				D7FAFD092DF03AEA0009E979 /* README.md */,
+				D7FAFD0C2DF040C50009E979 /* Makefile */,
+				D7FAFD0B2DF0409A0009E979 /* include */,
+				D7FAFD0A2DF040700009E979 /* src */,
 				D7FAFD002DF039F10009E979 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +58,22 @@
 				D7FAFCFF2DF039F10009E979 /* crossshell */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FAFD0A2DF040700009E979 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAFD0E2DF041140009E979 /* main.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D7FAFD0B2DF0409A0009E979 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAFD0D2DF041140009E979 /* main.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7FAFD0F2DF041140009E979 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
