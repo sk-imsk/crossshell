@@ -6,7 +6,8 @@ struct shell_c
     char prompt[20];
     char input[100];
     bool done;
-    
+
 };
+
 
 
