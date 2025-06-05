@@ -6,7 +6,7 @@ TARGET = crossshell
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $@ $^
+	$(CC) $(CFLAGS) ./src/* -o $@ $^
 	
 clean:
 	rm -rf $(TARGET)
