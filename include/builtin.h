@@ -1,5 +1,5 @@
 // builtin.h
-#define bulitins_count 2
+#define bulitins_count 3
 int cd(char* dir);
 int handle_builtin(char *input);
 

@@ -5,9 +5,15 @@ int cd(char* dir){
 int exit_(char *args){ 
     exit(3);
 }
+int help(char *args){
+	printf("will make help laterlol");
+}
+
+
 builtin_command builtins[] = {
         {"cd", cd},
         {"exit", exit_},
+	{"help", help},
     };
 
 int handle_builtin(char *input){
